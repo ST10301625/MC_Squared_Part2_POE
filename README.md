@@ -14,3 +14,16 @@ Welcome to SaveSavvy! You can Sign Up to create a new account or Sign In if you 
 👁️ You can **show/hide** your password by clicking the eye icon for better visibility.  
 
 Sign up now and get started! 🚀
+
+![image](https://github.com/user-attachments/assets/fcfdea58-5d82-4655-bfd3-02319fd585b2)
+
+**Features**
+Manage Categories – Organize and customize expense/income categories.
+
+Set Monthly Goals – Define budgeting targets for savings or spending limits.
+
+Go to Expense Page – View a detailed breakdown of all recorded expenses.
+
+Go to Add Expense – Quickly log a new expense entry.
+
+Log Out – Securely sign out of the account.
