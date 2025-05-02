@@ -62,3 +62,20 @@ BACK TO HOME: Return to the main dashboard.
 
 GO TO EXPENSE PAGE: Navigate to detailed expense tracking and insights.
 
+
+**Set Monthly Spending Goals**
+Stay on track with your finances by setting personalized monthly spending limits.
+
+📈 Current Goals Display
+View your active spending range at a glance.
+Example: Min: R500.00 | Max: R1500.00
+
+⚙️ Goal Configuration
+Easily update your goals using input fields to define:
+
+Minimum limit (e.g., 500)
+
+Maximum limit (e.g., 2000)
+
+💾 Save Goals
+Click the SAVE GOALS button to apply and store your updated budget settings.
