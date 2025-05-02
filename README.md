@@ -156,5 +156,15 @@ This section highlights two essential components of the budget management applic
 * **Category Totals**: Breaks down spending per category (e.g., *"Return"*).
 
 
+**Useful resources for code:**
+
+Bing. (2025). Android studio roomdb - Bing. [online] Available at: <https://www.bing.com/search?pglt=297&q=Android+studio+roomdb&cvid=5c42d94d53294caf97da015011d52dff&gs_lcrp=EgRlZGdqKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEDSAQg2MzE4ajBqMagCALACAA&FORM=ANNTA1&PC=LCTS> [Accessed 25 April 2025].
+
+Firebase. (2019). Add Firebase to your Android project | Firebase. [online] Available at: <https://firebase.google.com/docs/android/setup.> [Accessed 25 April 2025]
+
+Jalaludin, M. (2018). How to Create User Interface Login & Register with Android Studio. [online] android.dev. Available at: <https://medium.com/muhamadjalaludin/how-to-create-user-interface-login-register-with-android-studio-34da847b05b2.> [Accessed 23 April 2025]
+
+Romain Girou. (2024). Expense Tracker App #1 • Flutter • Firebase • Bloc. [online] YouTube. Available at: <https://www.youtube.com/watch?v=yDyg0A4wL9Y> [Accessed 29 April 2025].
+
 
 
