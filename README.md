@@ -63,7 +63,10 @@ BACK TO HOME: Return to the main dashboard.
 GO TO EXPENSE PAGE: Navigate to detailed expense tracking and insights.
 
 
+
 **Set Monthly Spending Goals**
+
+
 Stay on track with your finances by setting personalized monthly spending limits.
 
 📈 Current Goals Display
