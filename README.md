@@ -20,15 +20,21 @@ Sign up now and get started! 🚀
 **Features**
 
 
-Manage Categories – Organize and customize expense/income categories.
+🗂️ Manage Categories
+Organize and customize your expense or income categories for better tracking.
 
-Set Monthly Goals – Define budgeting targets for savings or spending limits.
+🎯 Set Monthly Goals
+Define budgeting targets to manage savings goals or set spending limits.
 
-Go to Expense Page – View a detailed breakdown of all recorded expenses.
+📊 Expense Page
+Access a detailed breakdown of all recorded expenses, categorized for clarity.
 
-Go to Add Expense – Quickly log a new expense entry.
+➕ Add Expense
+Quickly log a new expense entry with minimal steps.
 
-Log Out – Securely sign out of the account.
+🔒 Log Out
+Securely sign out of your account to protect your data.
+
 
 
 
@@ -36,4 +42,23 @@ Log Out – Securely sign out of the account.
 ![image](https://github.com/user-attachments/assets/2c01fe7b-da23-49f4-8c71-f883ee4410a9)    ![image](https://github.com/user-attachments/assets/d12384fe-9121-4b9a-ab1e-5fe6baf2fac6)
 
 
+**Manage Categories**
+
+
+Easily organize and customize your expense categories with the following features:
+
+🔹 Category List
+View all existing categories (e.g., "Lunch") alongside related expenses (e.g., "R100.00 - Lunch with friends").
+
+Use the REFRESH button to dynamically update the list with the latest changes.
+
+🔹 Category Management
+Add new categories using the input field.
+
+Manage your list with ADD and DELETE buttons for easy control.
+
+🔹 Navigation
+BACK TO HOME: Return to the main dashboard.
+
+GO TO EXPENSE PAGE: Navigate to detailed expense tracking and insights.
 
