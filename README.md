@@ -18,6 +18,8 @@ Sign up now and get started! 🚀
 ![image](https://github.com/user-attachments/assets/fcfdea58-5d82-4655-bfd3-02319fd585b2)
 
 **Features**
+
+
 Manage Categories – Organize and customize expense/income categories.
 
 Set Monthly Goals – Define budgeting targets for savings or spending limits.
