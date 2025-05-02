@@ -3,7 +3,7 @@
 
 Sign Up or Sign In  
 
-Welcome to SaveSavvy! You can Sign Up to create a new account or Sign In if you already have one. Your details will be securely stored using **Firebase Authentication.  
+Welcome to SaveSavvy! You can Sign Up to create a new account or Sign In if you already have one. Your details will be securely stored using Firebase Authentication.  
 
 🔐 **Password Requirements:**  
 - At least **one uppercase letter** (A-Z)  
@@ -15,7 +15,7 @@ Welcome to SaveSavvy! You can Sign Up to create a new account or Sign In if you 
 
 Sign up now and get started! 🚀
 
-![image](https://github.com/user-attachments/assets/fcfdea58-5d82-4655-bfd3-02319fd585b2)
+![image](https://github.com/user-attachments/assets/fcfdea58-5d82-4655-bfd3-02319fd585b2) 
 
 **Features**
 
@@ -29,3 +29,11 @@ Go to Expense Page – View a detailed breakdown of all recorded expenses.
 Go to Add Expense – Quickly log a new expense entry.
 
 Log Out – Securely sign out of the account.
+
+
+
+
+![image](https://github.com/user-attachments/assets/2c01fe7b-da23-49f4-8c71-f883ee4410a9)    ![image](https://github.com/user-attachments/assets/d12384fe-9121-4b9a-ab1e-5fe6baf2fac6)
+
+
+
