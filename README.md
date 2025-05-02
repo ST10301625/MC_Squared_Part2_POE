@@ -82,3 +82,79 @@ Maximum limit (e.g., 2000)
 
 💾 Save Goals
 Click the SAVE GOALS button to apply and store your updated budget settings.
+
+
+![image](https://github.com/user-attachments/assets/5998a8c4-8450-496c-a4ec-2e38ed72467d)                        ![image](https://github.com/user-attachments/assets/3f0476af-e283-4267-bafe-f8c2c666b672)   
+
+
+Here's a cleaner, more professional version of your **Add Expense & Expense Tracking Page** README section, with consistent formatting and improved readability:
+
+---
+
+# **Add Expense & Expense Tracking Page**
+
+## 🧾 Overview
+
+This section highlights two essential components of the budget management application:
+
+1. **Add Expense Screen** – Easily log new expenses with category selection and receipt uploads.
+2. **Expense Tracking Page** – Monitor your spending history with budget alerts and powerful filtering tools.
+
+---
+
+ 🟢 **Add Expense**
+
+
+ ✨ Key Features:
+
+
+ 💵 **Expense Details**
+
+* **Amount**: Input the exact expense value.
+* **Description**: Add optional notes (e.g., *"Lunch with friends"*).
+* **Date**: Enter the transaction date in `yyyy-MM-dd` format.
+
+ 🗂️ **Category Selection**
+
+* Choose a category from a dropdown menu (e.g., *"Ball"*).
+
+ 📷 **Image Upload**
+
+* Attach receipts or related photos using the **Upload Image** button.
+
+ 💾 **Save Action**
+
+* Tap **Save Expense** to securely store the entry in your records.
+
+
+
+ 📊 ** Expense Tracking Page**
+
+ ✨ Key Features:
+
+ 🚨 **Budget Alerts**
+
+* Get real-time feedback when spending falls outside set limits.
+  *Example: "You're below your minimum budget goal of R200.00"*
+
+ 📅 **Date Filtering**
+
+* Use **Start Date** and **End Date** fields to refine your view by time range.
+* Apply or reset filters using **Filter** and **Clear** buttons.
+
+ 🗃️ **Category Filter**
+
+* Select a category (e.g., *"Ball"*) to isolate relevant transactions.
+
+ 📋 **Expense List**
+
+* View all entries (e.g., *"Boots – R150.00 – 2025-01-01"*), each with a **Delete** option.
+
+ 📈 **Financial Summary**
+
+* **Total Expenses**: Displays total spending (e.g., *R450.00*).
+* **Category Totals**: Breaks down spending per category (e.g., *"Return"*).
+
+
+
+
