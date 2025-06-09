@@ -1,159 +1,222 @@
-**Save Savvy**
-![image](https://github.com/user-attachments/assets/8873fa0d-8a2b-4aca-992f-988be95f294a) ![image](https://github.com/user-attachments/assets/b3253b8f-4fd3-4a10-bb02-c33e5bb977b3)
-
-Sign Up or Sign In  
-
-Welcome to SaveSavvy! You can Sign Up to create a new account or Sign In if you already have one. Your details will be securely stored using Firebase Authentication.  
-
-🔐 **Password Requirements:**  
-- At least **one uppercase letter** (A-Z)  
-- At least **one lowercase letter** (a-z)  
-- At least **one number** (0-9)  
-- At least **one special character** (e.g., !, @, #, $, etc.)  
-
-👁️ You can **show/hide** your password by clicking the eye icon for better visibility.  
-
-Sign up now and get started! 🚀
-
-![image](https://github.com/user-attachments/assets/fcfdea58-5d82-4655-bfd3-02319fd585b2) 
-
-**Features**
-
-
-🗂️ Manage Categories
-Organize and customize your expense or income categories for better tracking.
-
-🎯 Set Monthly Goals
-Define budgeting targets to manage savings goals or set spending limits.
-
-📊 Expense Page
-Access a detailed breakdown of all recorded expenses, categorized for clarity.
-
-➕ Add Expense
-Quickly log a new expense entry with minimal steps.
-
-🔒 Log Out
-Securely sign out of your account to protect your data.
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/2c01fe7b-da23-49f4-8c71-f883ee4410a9)    ![image](https://github.com/user-attachments/assets/d12384fe-9121-4b9a-ab1e-5fe6baf2fac6)
-
-
-**Manage Categories**
-
-
-Easily organize and customize your expense categories with the following features:
-
-🔹 Category List
-View all existing categories (e.g., "Lunch") alongside related expenses (e.g., "R100.00 - Lunch with friends").
-
-Use the REFRESH button to dynamically update the list with the latest changes.
-
-🔹 Category Management
-Add new categories using the input field.
-
-Manage your list with ADD and DELETE buttons for easy control.
-
-🔹 Navigation
-BACK TO HOME: Return to the main dashboard.
-
-GO TO EXPENSE PAGE: Navigate to detailed expense tracking and insights.
-
-
-
-**Set Monthly Spending Goals**
-
-
-Stay on track with your finances by setting personalized monthly spending limits.
-
-📈 Current Goals Display
-View your active spending range at a glance.
-Example: Min: R500.00 | Max: R1500.00
-
-⚙️ Goal Configuration
-Easily update your goals using input fields to define:
-
-Minimum limit (e.g., 500)
-
-Maximum limit (e.g., 2000)
-
-💾 Save Goals
-Click the SAVE GOALS button to apply and store your updated budget settings.
-
-
-![image](https://github.com/user-attachments/assets/5998a8c4-8450-496c-a4ec-2e38ed72467d)                        ![image](https://github.com/user-attachments/assets/3f0476af-e283-4267-bafe-f8c2c666b672)   
-
-
-Here's a cleaner, more professional version of your **Add Expense & Expense Tracking Page** README section, with consistent formatting and improved readability:
 
 ---
 
-# **Add Expense & Expense Tracking Page**
+# 📱 SaveSavvy
 
-## 🧾 Overview
-
-This section highlights two essential components of the budget management application:
-
-1. **Add Expense Screen** – Easily log new expenses with category selection and receipt uploads.
-2. **Expense Tracking Page** – Monitor your spending history with budget alerts and powerful filtering tools.
+**SaveSavvy** is a modern Android application that helps users track, analyze, and manage their monthly expenses. It empowers users to take control of their finances with tools like goal-setting, PDF reports, visual charts, and more—all built on Firebase.
 
 ---
 
- 🟢 **Add Expense**
+## 🧾 Project Description
+
+SaveSavvy allows users to:
+
+* Log expenses by category
+* View monthly summaries
+* Set personalized budget goals
+* Generate downloadable PDF reports
+* See data visualizations via charts
+
+The app is developed in **Android Studio** and integrates:
+
+* Firebase Authentication
+* Firestore (Cloud Firestore Database)
+* Firebase Storage
+
+SaveSavvy is built for **simplicity, speed, and scalability**, ensuring each user has a personalized financial management experience.
+
+---
+
+## 📚 Table of Contents
+
+* [🚀 How to Install and Run](#-how-to-install-and-run)
+* [📖 How to Use](#-how-to-use)
+* [📱 Application Pages & Features](#-application-pages--features)
+* [🔥 Firebase Structure](#-firebase-structure)
+* [🙏 Credits](#-credits)
+* [📄 License](#-license)
+
+---
+
+## 🚀 How to Install and Run
+
+1. Clone or download this repository.
+2. Open the project in **Android Studio**.
+3. Link to Firebase via **Tools > Firebase**.
+4. Enable the following Firebase services:
+
+   * ✅ Email/Password Authentication
+   * ✅ Firestore Database
+   * ✅ Firebase Storage
+5. Set **Firebase security rules** for user-based access control.
+6. Run the app on an emulator or Android device (API level 21+).
+
+---
+
+## 📖 How to Use
+
+1. **Sign up or log in** to your account.
+2. **Navigate** using the bottom navigation bar.
+3. Use features like:
+
+   * 📥 Add Expense
+   * 📊 Track Budget
+   * ⚙️ Set Goals
+   * 📂 Manage Categories
+   * 🧾 Generate PDF Report
+
+---
+
+## 📱 Application Pages & Features
+
+### 🔐 Sign In Page
+![image](https://github.com/user-attachments/assets/47d3d0b1-b147-4c0f-9fd0-e60fc92cce82)
 
 
- ✨ Key Features:
 
+* Fields: Email, Password
+* Firebase: `signInWithEmailAndPassword`
+* Access restricted to authenticated users.
 
- 💵 **Expense Details**
+---
 
-* **Amount**: Input the exact expense value.
-* **Description**: Add optional notes (e.g., *"Lunch with friends"*).
-* **Date**: Enter the transaction date in `yyyy-MM-dd` format.
-
- 🗂️ **Category Selection**
-
-* Choose a category from a dropdown menu (e.g., *"Ball"*).
-
- 📷 **Image Upload**
-
-* Attach receipts or related photos using the **Upload Image** button.
-
- 💾 **Save Action**
-
-* Tap **Save Expense** to securely store the entry in your records.
+### 📝 Sign Up Page
+![image](https://github.com/user-attachments/assets/8ccffeee-fd0e-4c8d-b131-0449d3e5ea2a)
 
 
 
- 📊 ** Expense Tracking Page**
+* Fields: Email, Password, Confirm Password
+* Firebase: `createUserWithEmailAndPassword`
+* Auto-initializes user data in Firestore.
 
- ✨ Key Features:
+---
 
- 🚨 **Budget Alerts**
+### 🏠 Home Dashboard
+![image](https://github.com/user-attachments/assets/162662f5-bdb4-4ff2-9eda-d4bd27e069e4)
 
-* Get real-time feedback when spending falls outside set limits.
-  *Example: "You're below your minimum budget goal of R200.00"*
 
- 📅 **Date Filtering**
+* Displays motivational tips & welcome messages.
+* Encourages good financial habits.
 
-* Use **Start Date** and **End Date** fields to refine your view by time range.
-* Apply or reset filters using **Filter** and **Clear** buttons.
+---
 
- 🗃️ **Category Filter**
+### ➕ Add Expense Page
+![image](https://github.com/user-attachments/assets/d57ba123-1741-4858-a583-350dfd0cf18e)
 
-* Select a category (e.g., *"Ball"*) to isolate relevant transactions.
 
- 📋 **Expense List**
+* Inputs: Amount, Description, Date, Category, Receipt Image
+* Saves data to `users/{userId}/expenses`
+* Uploads image to Firebase Storage
 
-* View all entries (e.g., *"Boots – R150.00 – 2025-01-01"*), each with a **Delete** option.
+---
 
- 📈 **Financial Summary**
+### 💳 Expense Page
+![image](https://github.com/user-attachments/assets/8353064c-a9eb-4726-9609-1299ee8c8dfc)   ![image](https://github.com/user-attachments/assets/791d7015-1111-4c3f-ae52-403abcb5b655)
 
-* **Total Expenses**: Displays total spending (e.g., *R450.00*).
-* **Category Totals**: Breaks down spending per category (e.g., *"Return"*).
+
+* Filter expenses by:
+
+  * 📅 Date
+  * 📂 Category
+* 📈 View total expense & per-category chart
+* ⚠️ Budget warnings
+* 🗑️ Delete expenses
+* Firebase:
+
+  * Reads: `users/{userId}/expenses`
+  * Reads goals: `goals/{userId}`
+
+---
+
+### 📊 Balance Overview Page
+![image](https://github.com/user-attachments/assets/1984a829-4a0a-4825-977f-bb6858b89698)
+
+
+* Monthly summary:
+
+  * 🍰 Pie chart per category
+  * 📏 Progress bar (against budget)
+  * 📄 Generate monthly PDF report
+* Firebase:
+
+  * Reads: `users/{userId}/expenses`
+  * Categories: `users/{userId}/categories`
+  * Goals: `goals/{userId}`
+
+---
+
+### 🎯 Goal Settings Page
+![image](https://github.com/user-attachments/assets/01e7afd3-da0b-4468-8881-2c1e0801d532)
+
+
+* Define `minGoal` and `maxGoal`
+* Firebase: `goals/{userId}`
+
+---
+
+### 📂 Category Manager
+![image](https://github.com/user-attachments/assets/81f62f11-9d43-44d4-8f97-f5581844ed81)
+
+
+* Add / delete / refresh categories
+* Firebase: `users/{userId}/categories`
+* Duplicate check before adding
+
+---
+
+### 🧭 Bottom Navigation (BaseActivity)
+![image](https://github.com/user-attachments/assets/679c28d7-88c7-46f8-a341-4e9a09d78147)
+
+
+* Accessible across all pages
+* Tabs: Home, Categories, Goals, Expenses, Add Expense
+* Highlights the current tab with **gold accent**
+
+---
+
+## 🔥 Firebase Structure
+
+```
+users (collection)
+└── {userId} (document)
+    ├── categories (collection)
+    │   └── {categoryId}: { name }
+    ├── expenses (collection)
+    │   └── {expenseId}: { amount, date, description, category, imageUrl }
+
+goals (collection)
+└── {userId}: { minGoal, maxGoal }
+```
+
+* 🔒 All user data is isolated via `uid`
+* 🖼️ Images stored in Firebase Storage and linked via `imageUrl`
+
+---
+
+## 🙏 Credits
+
+Developed by:
+
+* **Cameron Totham**
+* **Makwande Ntombela**
+
+### 🔗 Resources Used:
+
+* [Firebase Documentation](https://firebase.google.com/docs)
+* [MPAndroidChart Library](https://github.com/PhilJay/MPAndroidChart)
+* [Android Developers Docs](https://developer.android.com)
+
+> Special thanks to the Android Studio and Firebase communities 🙌
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You may use, modify, and distribute with attribution.
+
+
+---
+
 
 
 **Useful resources for code:**
