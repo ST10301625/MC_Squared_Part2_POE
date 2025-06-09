@@ -192,6 +192,12 @@ goals (collection)
 * 🖼️ Images stored in Firebase Storage and linked via `imageUrl`
 
 ---
+![image](https://github.com/user-attachments/assets/ecc279e2-315f-4fd2-9c93-aecebc2cd848)
+
+![image](https://github.com/user-attachments/assets/e912a739-ac3b-4b21-b1ad-de81bb1d039a)
+
+![image](https://github.com/user-attachments/assets/2e746be7-728d-4f5f-8185-9826eddfc429)
+
 
 ## 🙏 Credits
 
